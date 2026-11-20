@@ -23,11 +23,8 @@ class Solution {
                     minLen = right - left + 1;
                     start = left;
                 }
-
                 char ch = s.charAt(left);
-
                 freq[ch]++;
-
                 if (freq[ch] > 0) {
                     count++;
                 }
