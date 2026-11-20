@@ -4,13 +4,10 @@ class Solution {
         boolean dot = false;
         boolean exp = false;
         for (int i = 0; i < s.length(); i++) {
-
             char c = s.charAt(i);
-
             if (Character.isDigit(c)) {
                 digit = true;
             }
-
             else if (c == '+' || c == '-') {
 
                 if (i != 0 && s.charAt(i - 1) != 'e' &&
