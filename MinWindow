@@ -17,11 +17,8 @@ class Solution {
             if (freq[c] > 0) {
                 count--;
             }
-
             freq[c]--;
-
             while (count == 0) {
-
                 if (right - left + 1 < minLen) {
                     minLen = right - left + 1;
                     start = left;
