@@ -5,11 +5,9 @@ class Solution {
             return "";
         }
         int[] freq = new int[128];
-
         for (char c : t.toCharArray()) {
             freq[c]++;
         }
-
         int left = 0;
         int count = t.length();
 
