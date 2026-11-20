@@ -13,9 +13,7 @@ class Solution {
         int minLen = Integer.MAX_VALUE;
         int start = 0;
         for (int right = 0; right < s.length(); right++) {
-
             char c = s.charAt(right);
-
             if (freq[c] > 0) {
                 count--;
             }
