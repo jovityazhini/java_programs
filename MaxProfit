@@ -11,7 +11,6 @@ class Solution {
             buy2 = Math.min(buy2, price - sell1);
             sell2 = Math.max(sell2, price - buy2);
         }
-
         return sell2;
     }
 }
