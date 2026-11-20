@@ -22,7 +22,6 @@ class Solution {
                 sell[t] = Math.max(sell[t], buy[t] + price);
             }
         }
-
         return sell[k];
     }
 }
