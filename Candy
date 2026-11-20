@@ -17,7 +17,7 @@ class Solution {
             }
         }
 
-        // Calculate total candies
+
         int total = 0;
         for (int c : candies) {
             total += c;
