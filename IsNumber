@@ -28,12 +28,10 @@ class Solution {
                 exp = true;
                 digit = false;
             }
-
             else {
                 return false;
             }
         }
-
         return digit;
     }
 }
