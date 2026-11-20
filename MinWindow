@@ -1,11 +1,9 @@
 import java.util.*;
 class Solution {
     public String minWindow(String s, String t) {
-
         if (s.length() < t.length()) {
             return "";
         }
-
         int[] freq = new int[128];
 
         for (char c : t.toCharArray()) {
