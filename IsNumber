@@ -16,9 +16,7 @@ class Solution {
                 }
                 digit = false;
             }
-
             else if (c == '.') {
-
                 if (dot || exp) {
                     return false;
                 }
