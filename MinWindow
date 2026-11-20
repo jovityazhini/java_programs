@@ -28,15 +28,12 @@ class Solution {
                 if (freq[ch] > 0) {
                     count++;
                 }
-
                 left++;
             }
         }
-
         if (minLen == Integer.MAX_VALUE) {
             return "";
         }
-
         return s.substring(start, start + minLen);
     }
 }
