@@ -2,7 +2,6 @@ import java.util.*;
 class Solution {
     public int maxProfit1(int k, int[] prices) {
         int n = prices.length;
-
         // If k is large, use unlimited transactions approach
         if (k >= n / 2) {
             int profit = 0;
