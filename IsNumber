@@ -1,6 +1,5 @@
 class Solution {
     public boolean isNumber(String s) {
-
         boolean digit = false;
         boolean dot = false;
         boolean exp = false;
