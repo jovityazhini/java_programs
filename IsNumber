@@ -9,7 +9,6 @@ class Solution {
                 digit = true;
             }
             else if (c == '+' || c == '-') {
-
                 if (i != 0 && s.charAt(i - 1) != 'e' &&
                     s.charAt(i - 1) != 'E') {
                     return false;
@@ -20,7 +19,6 @@ class Solution {
                 if (dot || exp) {
                     return false;
                 }
-
                 dot = true;
             }
 
