@@ -3,7 +3,6 @@ class Solution {
     public int candy(int[] ratings) {
         int n = ratings.length;
         int[] candies = new int[n];
-
         // Give each child at least one candy
         for (int i = 0; i < n; i++) {
             candies[i] = 1;
