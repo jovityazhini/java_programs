@@ -15,10 +15,8 @@ class Solution {
             }
             int[] stack = new int[cols + 1];
             int top = -1;
-
             for (int j = 0; j <= cols; j++) {
                 int current = (j == cols) ? 0 : heights[j];
-
                 while (top >= 0 && heights[stack[top]] > current) {
                     int height = heights[stack[top--]];
 
